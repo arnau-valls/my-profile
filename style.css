@@ -1,0 +1,119 @@
+/* Colors and fonts */
+
+/*
+blanc rgb(251, 251, 251)
+vermell rgb(228,53,48)
+blau rgb(39,53,131)
+gris rgb(50,50,48)
+*/
+
+body {
+   background: rgb(245, 245, 245);
+   color: rgb(40,40,38);
+   font-family: 'Open Sans', sans-serif;
+   text-align: center;
+}
+
+h1 {
+   font-family: 'Noto Sans TC', sans-serif;
+   color: rgb(228,53,48);
+   font-weight: 400;
+   font-size: 35px;
+   text-align: center;
+   text-decoration: underline;
+}
+
+h2 {
+   font-family: 'Noto Sans TC', sans-serif;
+   color: rgb(39,53,131);
+   font-weight: 400;
+   font-size: 25px;
+}
+
+h1, h2 {margin-top: -5px;}
+
+a {
+   font-family: 'Noto Sans TC', sans-serif;
+   color: rgb(39,53,131);
+   text-decoration: none;
+   transition: color 0.3s ease;
+}
+
+a:hover {
+   font-family: 'Noto Sans TC', sans-serif;
+   color: rgb(228,53,48);
+   text-decoration: none;
+}
+
+
+/* CLASS & ID */
+
+#img-football {margin: 30px 0px; width: 423px;}
+
+.div-container {
+   background: rgb(245, 245, 245);
+   /*width: 1260px;*/
+   width: 80%;
+   margin: 30px auto;
+   border-radius: 4px;
+}
+
+.div-clasic {
+   background: rgb(255, 255, 255);
+   /*width: 650px;*/
+   width: 70%;
+   margin: 30px auto;
+   padding: 25px 55px;
+   box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+   border-radius: 4px;
+}
+
+@media (max-width: 760px) {
+   .div-container {width: 500px;}
+   .div-clasic {width: 350px;}
+   #img-football {width: 300px}
+
+}
+
+@media (max-width: 500px) {
+   .div-container {width: 400px}
+   .div-clasic {width: 300px}
+}
+
+.img-big {margin: 30px 0px; width: 300px;}
+
+.img-circle {border-radius: 50%; box-shadow: 0px 10px 10px rgba(0,0,0,0.1);}
+
+.img-square {border-radius: 4px; box-shadow: 0px 10px 10px rgba(0,0,0,0.1);}
+
+.img-border {border: 5px solid rgb(245, 245, 245);}
+
+.list-inline {
+   list-style: none;
+   padding-left: 0px;
+}
+
+.list-inline li {
+   display: inline;
+   padding: 20px;
+}
+
+.list-inline i {
+   font-size: 35px;
+}
+
+.btn-blue {
+   background-color: rgb(39,53,131);
+   border-radius: 4px;
+   color: rgb(251, 251, 251);
+   padding: 5px 10px;
+   box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+}
+
+.btn-blue:hover {
+   background-color: rgb(228,53,48);
+   transition-duration: 0.3s;
+   color: rgb(251, 251, 251);
+}
+
+#text-spacing {margin-bottom: 30px;}
